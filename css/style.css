@@ -95,7 +95,7 @@ float:left;
 
 #navTopo{
 	float:left;
-	margin:90px 0 0 130px;
+	margin:90px 0 0 110px;
 }
 
 #navTopo a{
@@ -178,10 +178,14 @@ float:left;
 #conhecaInovacao{
 	height:560px;
 }
+#conhecaInovacao .tituloPagina{
+	margin-bottom: 40px;
+}
 #conhecaInovacao article{
 	width:600px;
 	float:left;
-	margin-top:40px;
+	margin-top:20px;
+	margin-bottom: 40px;
 }
 #conhecaInovacao div{margin-bottom:40px;}
 #conhecaInovacao  h4{margin-bottom:10px;font-size:22px;}
@@ -215,17 +219,31 @@ float:left;
 	background-color:#ccc;
 }
 #carouselMarcas > .carousel-inner ul li:last-child{margin-right:0;}
-#carouselMarcas > .carousel-inner ul li:hover,.marcaSelecionada{
-/*	background-image:url(../img/shadow.png);
-	background-repeat:no-repeat;
-	background-position: center bottom;
-	width:100%;
-	*/
-}
 
-#carouselMarcas > .carousel-inner ul li,.marca{
-	transition: all .5s;
-	-webkit-transition: all .5s; /* Safari */
+#carouselMarcas > .carousel-inner ul li img, #carouselParceiros > .carousel-inner ul li img, .marca{
+	transition: all .3s;
+	-webkit-transition: all .3s; /* Safari */
+}
+#carouselMarcas > .carousel-inner ul li img{
+	-webkit-filter: grayscale(70%);
+	-moz-filter: grayscale(70%);
+    -ms-filter: grayscale(70%);    
+     -o-filter: grayscale(70%);
+	filter: grayscale(70%);
+}
+#carouselParceiros > .carousel-inner ul li img{
+	-webkit-filter: grayscale(90%);
+	-moz-filter: grayscale(90%);
+    -ms-filter: grayscale(90%);    
+     -o-filter: grayscale(90%);
+	filter: grayscale(90%);
+}
+.marcaSelecionada img, #carouselMarcas > .carousel-inner ul li img:hover, #carouselParceiros > .carousel-inner ul li img:hover{
+	-webkit-filter: grayscale(0%)!important;
+	-moz-filter: grayscale(0%)!important;
+    -ms-filter: grayscale(0%)!important;    
+     -o-filter: grayscale(0%)!important;
+	filter: grayscale(0%)!important;
 }
 
 .marca{
@@ -300,9 +318,11 @@ border: 0!important;
 	width:400px;
 	float:left;
 	padding-top:50px;
+	margin-bottom:20px;
 }
 .midiaMarca{
 	width:400px;
+	box-shadow: 1px 1px 10px 0px rgba(0,0,0,.15);
 }
 .redesMarca{
 	width:400px;
@@ -334,6 +354,7 @@ border: 0!important;
 .icoPintrest{background-position:-158px 0;}
 .icoGPlus{background-position:-106px 0;}
 .icoYoutube{background-position:-262px 0;}
+.icoBlog{background-position:-315px 0;}
 
 
 .programacaoTV{
@@ -352,11 +373,12 @@ border: 0!important;
 	display: block;
 }
 .logoEmissora{
-	width: 190px;
+	min-width: 190px;
 	height: 130px;
 	display:block;
 	margin:0 auto;
 }
+.textoExibicao{min-width: 110px;}
 .programacaoTV tbody tr{vertical-align: middle;border-bottom: 1px solid #ddd;}
 .programacaoTV tbody th{font-size: 18px;color:#666;padding:15px 0;border-right: 1px solid #e3e3e3;}
 .programacaoTV tbody th:last-child{border-bottom:0;}
@@ -375,10 +397,11 @@ border: 0!important;
 	display: block;
 	margin: 0 auto;
 	padding: 36px 0;
-	width: 230px;
-	font-size: 18px;
+	width: 170px;
+	text-decoration: underline;
+	font-size: 14px;
 	line-height: 28px;
-	color: #333;
+	color: #999;
 }
 
 /* -- -- -- -- -- PARCEIROS -- -- -- -- -- */
@@ -455,6 +478,10 @@ border: 0!important;
 	margin: 30px 0;
 	font-size: 16px;
 }
+#formAssunto{
+	width: 314px!important;
+	height: 45px;
+}
 /* -- -- -- -- -- RODAPE -- -- -- -- -- */
 #rodape{
 	height:240px;
@@ -520,14 +547,21 @@ border: 0!important;
 	float:left;
 	margin-right:10px;
 	text-indent:-9999px;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);    
+     -o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	transition: all .5s;
+	-webkit-transition: all .5s;
+}
+.redesSociais a:hover{
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);    
+     -o-filter: grayscale(0%);
+	filter: grayscale(0%);
 }
 .redesSociais a:last-child{margin-right:0;}
 .icoLinkedin {background-position: -210px 0;}
-.icoBlog {background-position: -369px 0;}
-#rodape h5{
-
-}
-
-#navRodape{
-
-}
+.icoWP {background-position: -369px 0;}
