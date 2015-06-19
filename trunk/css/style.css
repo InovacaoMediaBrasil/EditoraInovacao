@@ -209,8 +209,8 @@ float:left;
 	margin: 20px auto 0 auto;
 }
 #carouselMarcas > .carousel-inner ul li{
-	width:265px;
-	height:165px;
+	width: 152px;
+	/* height:165px; */
 	margin-top:20px;
 	margin-right:20px;
 	display:block;
@@ -323,6 +323,7 @@ border: 0!important;
 .midiaMarca{
 	width:400px;
 	box-shadow: 1px 1px 10px 0px rgba(0,0,0,.15);
+	text-align: center;
 }
 .redesMarca{
 	width:400px;
