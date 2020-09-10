@@ -41,5 +41,5 @@
 	
 	'End if 
 	
-	Response.Redirect("http://www.editorainovacao.com.br/?confirmado")
+	Response.Redirect("https://www.editorainovacao.com.br/?confirmado")
 %>
