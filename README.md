@@ -14,4 +14,6 @@ Website [Editora Inovação](https://www.editorainovacao.com.br)
 
 The institutional website of Editora Inovação available at [Editora Inovação](https://www.editorainovacao.com.br)
 
-Desenvolvido por [Guilherme Branco Stracini](https://www.guilhermebranco.com.br) [*guilherme(at)guilhermebranco(dot)com(dot)br*] para [Editora Inovação](https://www.editorainovacao.com.br) - © 2013 - 2023.
+---
+
+Desenvolvido por [Guilherme Branco Stracini](https://www.guilhermebranco.com.br) [*guilherme(at)guilhermebranco(dot)com(dot)br*] para [Editora Inovação](https://www.editorainovacao.com.br) - © 2015 - 2023. 
