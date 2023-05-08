@@ -19,8 +19,6 @@ The institutional website of Editora Inovação available at [Editora Inovação
 
 ---
 
-Developed by [Guilherme Branco Stracini](https://guilherme.stracini.com) for [Editora Inovação](https://www.editorainovacao.com.br).
+Desenvolvido por [Guilherme Branco Stracini](https://www.guilhermebranco.com.br) para [Editora Inovação](https://www.editorainovacao.com.br) 
 
-2015 ~ 2018 © [Guilherme Branco Stracini](https://guilherme.stracini.com). All rights reserved.
-
----
+© 2015 ~ 2018 All rights reserved.
