@@ -12,34 +12,22 @@
 	txtEmail = txtEmail & "<b>Hora da mensagem:</b>" & now() & "<br />"
 	txtEmail = txtEmail & "<b>IP da mensagem:</b>" & Request.ServerVariables("REMOTE_ADDR") & "<br />"
 	txtEmail = txtEmail & "<b>User-Agent:</b>" & Request.ServerVariables("HTTP_USER_AGENT") & "<br />"
-	
-	
 
-	'if assunto = "1" then
-		Set objmail = Server.CreateObject("CDONTS.NewMail")
-			objmail.from = nome & "<" & email & ">"
-			objmail.to = "SAC <sac@editorainovacao.com.br>"
-			objmail.subject = "Fale Conosco | Editora Inovação"
-			objMail.BodyFormat = 0
-			objMail.MailFormat = 0
-			objmail.body = txtEmail
-			objmail.send
-		Set objmail = Nothing
-		
-		
-	'else
+	destinatario = "SAC <sac@editorainovacao.com.br>"
+
+	if assunto = "0" then
+		destinatario = "Comercial <comercial@editorainovacao.com.br>"
+	End if
 	
-	'Set objmail = Server.CreateObject("CDONTS.NewMail")
-	'	objmail.from = nome & "<" & email & ">"
-	'	objmail.to = "Comercial <comercial@editorainovacao.com.br>"
-	'	objmail.subject = "Fale Conosco | Editora Inovação"
-	'	objMail.BodyFormat = 0
-	'	objMail.MailFormat = 0
-	'	objmail.body = txtEmail
-	'	objmail.send
-	'Set objmail = Nothing
-	
-	'End if 
+	Set objmail = Server.CreateObject("CDONTS.NewMail")
+		objmail.from = nome & "<" & email & ">"
+		objmail.to = destinatario
+		objmail.subject = "Fale Conosco | Editora Inovação"
+		objMail.BodyFormat = 0
+		objMail.MailFormat = 0
+		objmail.body = txtEmail
+		objmail.send
+	Set objmail = Nothing
 	
 	Response.Redirect("https://www.editorainovacao.com.br/?confirmado")
 %>
