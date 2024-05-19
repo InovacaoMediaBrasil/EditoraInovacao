@@ -1413,7 +1413,7 @@ blockquote p {
 /* Microformats */
 .vcard {
   display: inline-block;
-  margin: 0 0 1.25rem 0;
+  margin: 0 0 1.25rem;
   border: 1px solid #dddddd;
   padding: 0.625rem 0.75rem; }
   .vcard li {
