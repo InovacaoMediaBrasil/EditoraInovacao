@@ -35,11 +35,11 @@ $(window).load(function() {
 			ctx.fillStyle = "blue";
 			ctx.font = "bold 16px Arial";
 			ctx.fillText("Zibri", 100, 100);
-		};
+		}
 		function showDoughnutChart2(){
 			var ctx = document.getElementById("doughnutChartCanvas2").getContext("2d");
 			new Chart(ctx).Doughnut(doughnutChartData,globalGraphSettings);
-		};
+		}
 		
 		
 		$("#doughnutChart").on("inview",function(){

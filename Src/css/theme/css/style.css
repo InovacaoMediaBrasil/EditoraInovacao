@@ -73,7 +73,7 @@ body{
 		float:left;
 		border-left: 1px solid #333;
 		padding: 0 5px;
-		margin:0 0 20px 0;
+		margin:0 0 20px;
 	}
 	.maskJob ul li:first-of-type{border:0;padding-left:0}
 	.maskJob ul li:last-of-type{padding-right:0}
@@ -136,7 +136,7 @@ body{
 
 	.maskJob{
 		width:70%;
-		margin:0 auto 40px auto;
+		margin:0 auto 40px;
 	}
 	.maskJob ul{margin:0!important}
 	.maskJob ul li{
@@ -144,7 +144,7 @@ body{
 		float:left;
 		border-left: 1px solid #333;
 		padding: 0 10px;
-		margin:0 0 20px 0;
+		margin:0 0 20px;
 		
 	}
 	.maskJob ul li:first-of-type{border:0;padding-left:0}
@@ -234,13 +234,13 @@ body{
 	margin:0 auto;
 }
 .pageSection{
-	padding:40px 0 80px 0;
+	padding:40px 0 80px;
 }
 .nextSection{
 	display:block;
 	width:60px;
 	height:40px;
-	margin:40px auto 0 auto;
+	margin:40px auto 0;
 	background-image:url(../img/sprite.png);
 }
 .nextSection:hover{opacity:.75;}
@@ -396,7 +396,7 @@ h2:before{
 #bannerHome{
 	width:100%;
 	height:auto;
-	padding:40px 0 40px 0;
+	padding:40px 0;
 	position:relative;
 	overflow:hidden;
 	margin-bottom:20px;
@@ -573,7 +573,7 @@ h2:before{
 	left:50%;
 	margin:0 0 0 -62.5px;
 	font-size:12px;
-	padding:0 4px 4px 4px;
+	padding:0 4px 4px;
 }
 .skillSecondary .skillDescription{
 	width:105px;
@@ -581,14 +581,13 @@ h2:before{
 	left:50%;
 	margin-left:-52.5px;
 	font-size:12px;
-	padding:0 2px 2px 2px;
+	padding:0 2px 2px;
 }
 .skillDescription{
 	position:absolute;
 	background-color:#fff;
 	color:#333;
 	text-align:center;
-	display:block;
 	border-radius:5px;
 	z-index:4;
 	visibility:hidden;
@@ -656,7 +655,6 @@ h2:before{
 }
 
 .skill .wrapperSkillLevel{
-	width:100px;
 	width:100px;
 	border-radius:50%
 }
@@ -734,7 +732,7 @@ background-image:url(../img/bgLevel.gif)
 	border-top:0;
 	border-radius: 4px;
 	border-style: solid;
-	border-width: 0 0 3px 0;
+	border-width: 0 0 3px;
 	color:#fff
 }
 #fEnviar:hover{background-color:#3DD1AB;}
@@ -841,7 +839,7 @@ div.error .alertError{visibility:visible;opacity:1;}
 	border-top: 0;
 	border-radius: 4px;
 	border-style: solid;
-	border-width: 0 0 3px 0;
+	border-width: 0 0 3px;
 }
 .closeModal:hover{color:#fff;background-color:#DE8080;}
 .closeModal:focus{
@@ -894,7 +892,7 @@ div.error .alertError{visibility:visible;opacity:1;}
 #socialPages{
 	width:100%;
 	height:60px;
-	margin:60px 0 60px 0;
+	margin:60px 0;
 }
 #socialPages li{float:left;}
 #socialPages a{

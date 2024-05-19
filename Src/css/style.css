@@ -199,14 +199,14 @@ float:left;
 
 /* -- -- -- -- -- NOSSAS-MARCAS -- -- -- -- -- */
 #nossasMarcas{
-	padding:0px 0 40px 0;
+	padding:0px 0 40px;
 }
 #nossasMarcas .carousel-control{background-image:url(../img/arrowsParceiros.png)!important}
-#carouselMarcas > .carousel-inner{padding: 0px 0 40px 0;}
+#carouselMarcas > .carousel-inner{padding: 0px 0 40px;}
 #carouselMarcas > .carousel-inner ul{
 	width: 840px;
 	display: block;
-	margin: 20px auto 0 auto;
+	margin: 20px auto 0;
 }
 #carouselMarcas > .carousel-inner ul li{
 	width: 152px;
@@ -390,7 +390,7 @@ border: 0!important;
 	text-align: center;
 }
 .logoAntena{
-	margin: 0 auto 5px auto;
+	margin: 0 auto 5px;
 	display: block;
 }
 .linkPCompleta{
@@ -407,15 +407,15 @@ border: 0!important;
 
 /* -- -- -- -- -- PARCEIROS -- -- -- -- -- */
 #parceiros{
-	padding:0px 0 40px 0;
+	padding:0px 0 40px;
 }
 #carouselParceiros{}
 #parceiros .carousel-control{background-image:url(../img/arrowsParceiros.png)!important}
-#carouselParceiros > .carousel-inner{padding: 0px 0 40px 0;}
+#carouselParceiros > .carousel-inner{padding: 0px 0 40px;}
 #carouselParceiros > .carousel-inner ul{
 	width: 840px;
 	display: block;
-	margin: 20px auto 0 auto;
+	margin: 20px auto 0;
 	
 }
 #carouselParceiros > .carousel-inner ul li{
@@ -430,7 +430,7 @@ border: 0!important;
 
 /* -- -- -- -- -- CONTATO -- -- -- -- -- */
 #contato{
-	padding:0 0 40px 0;
+	padding:0 0 40px;
 }
 #formularioContato{
 	width:314px;
@@ -457,11 +457,11 @@ border: 0!important;
 	margin:40px 0 0 80px;
 }
 #contato h4{
-	margin: 20px 0 15px 0;
+	margin: 20px 0 15px;
 	font-size: 22px;
 }
 #contato h5{
-	margin: 20px 0 0px 0;
+	margin: 20px 0 0px;
 	font-size: 22px;
 }
 #contato span{margin:10px 0;display: inline-block;}
@@ -511,7 +511,7 @@ border: 0!important;
 .coluna6 h2{
 	font-size:22px;
 	line-height: 20px;
-	margin:40px auto 115px auto;
+	margin:40px auto 115px;
 	display:block;
 	text-align:center;
 	color:#555;

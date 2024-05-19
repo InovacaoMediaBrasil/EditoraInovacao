@@ -49,6 +49,6 @@ $(function() {
 		$('.modal-backdrop,.close,.fecharModal').click(function(){
 			$('#modalContato, .modal-backdrop').removeClass('in');
 		});
-	};
+	}
 	
 });
