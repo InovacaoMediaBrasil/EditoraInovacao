@@ -1,6 +1,6 @@
-# Website Editora Inovação
+# Editora Inovação institutional website
 
-The [Editora Inovação's website](https://www.editorainovacao.com.br), this is the corporate website of the group.
+The [Editora Inovação's institutional website](https://www.editorainovacao.com.br), this is the corporate institutional website of the group.
 
 [![wakatime](https://wakatime.com/badge/github/InovacaoMediaBrasil/EditoraInovacao.svg)](https://wakatime.com/badge/github/InovacaoMediaBrasil/EditoraInovacao)
 [![Maintainability](https://api.codeclimate.com/v1/badges/6386e2c83f6c6566e61f/maintainability)](https://codeclimate.com/github/InovacaoMediaBrasil/EditoraInovacao/maintainability)
@@ -19,7 +19,7 @@ The institutional website of Editora Inovação available at [Editora Inovação
 
 ---
 
-Desenvolvido por [Guilherme Branco Stracini](https://www.guilhermebranco.com.br) para [Editora Inovação](https://www.editorainovacao.com.br) 
+Developed by [Guilherme Branco Stracini](https://www.guilhermebranco.com.br) for [Editora Inovação](https://www.editorainovacao.com.br)
 
 © 2015 ~ 2018 All rights reserved.
 
