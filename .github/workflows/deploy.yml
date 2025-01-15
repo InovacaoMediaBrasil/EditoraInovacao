@@ -9,6 +9,9 @@ concurrency:
 
 jobs:
   create_release:
+    permissions:
+      contents: read
+      pull-requests: write
     name: Create release
     runs-on: ubuntu-latest
 
